@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maternal Health Crowdfunding</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AfricaNatal Hub</h1>
+    </header>
+    <main>
+        <section class="campaign-form">
+            <h2>Create a Campaign</h2>
+            <form id="campaign-form">
+                <div class="form-group">
+                    <label for="campaign-title">Campaign Title</label>
+                    <input type="text" id="campaign-title" required>
+                </div>
+                <div class="form-group">
+                    <label for="campaign-description">Campaign Description</label>
+                    <textarea id="campaign-description" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="campaign-goal">Fundraising Goal (kshs)</label>
+                    <input type="number" id="campaign-goal" required>
+                </div>
+                <button type="submit">Start Campaign</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; AfricaNatal Hub</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
